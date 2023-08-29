@@ -1,15 +1,27 @@
-`cd Desktop` will change to the desktop directory
+Open up the terminal or Git Bash, and guide students through the following commands:
 
-`mkdir PythonStuff` will make a new directory/folder on the desktop.
+* `cd` changes the directory.
 
-`cd PythonStuff` will move to the newly created folder
+* `cd ~` changes to the home directory.
 
-`open .` on a Mac or `explorer .` on a Windows will open the current folder
+* `cd ..` moves up one directory.
 
-`touch first_file.py` will create a file
+* `ls` lists files in the folder.
 
-`touch second_file.py` will create a second file
+* `pwd` shows the current directory.
 
-`ls` will show what is in the current directory
+* `mkdir <FOLDERNAME>` creates a new directory with the FOLDERNAME.
 
-`cd ..` will move us up a directory back to Desktop
+* `touch <FILENAME>` creates a new file with the FILENAME.
+
+* `rm <FILENAME>` deletes a file.
+
+* `rm -r <FOLDERNAME>` deletes a folder; note the “-r” to students.
+
+* `open .` opens the current folder on Macs.
+
+* `explorer .` opens the current folder on Windows.
+
+* `open <FILENAME>` opens a specific file on Macs.
+
+* `explorer <FILENAME>` opens a specific file on Windows.
