@@ -1,0 +1,1 @@
+print("x is less than 10 and y is greater than 5")

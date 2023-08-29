@@ -1,14 +1,17 @@
 # Collects the user's input for the prompt "What is your name?"
-name = input("What is your name? ")
+# name=input("What is your name")
+# print("my name is "+name)
+      
 
 # Collects the user's input for the prompt "How old are you?" and converts the string to an integer.
-age = int(input("How old are you? "))
+# age=  int(input("What is your age"))
+# print(age)
+# print(age+2)
 
 # Collects the user's input for the prompt "Is input truthy?" and converts it to a boolean. Note that non-zero,
 #   non-empty objects are truth-y.
-trueOrFalse = bool(input("Is the input truthy? "))
+stat=(input("What is the status"))
+print(stat==True)
 
 # Creates three print statements that to respond with the output.
-print("My name is " + str(name))
-print("I will be " + str(age + 1) + " next year.")
-print("The input was converted to " + str(trueOrFalse))
+
