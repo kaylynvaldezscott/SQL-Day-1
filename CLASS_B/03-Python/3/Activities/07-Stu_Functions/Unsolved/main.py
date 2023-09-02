@@ -4,17 +4,40 @@
 # Test your function with the following:
 # print(average([1, 5, 9]))
 # print(average(range(11)))
-#numbers=[1,5,9]
+# numbers=[1,5,9]
+# s=sum(numbers)   #15
+# l=len(numbers) 
+# avg=s/l
+# print(avg)
+
 def average(numbers):
-    total=0
+
+    s=sum(numbers)   #15
+    l=len(numbers) 
+    avg=s/l
+    return avg
+
+# print(average([1,5,9]))
+
+# print(average([1,5,9,100]))
+
+
+numbers=[1,5,9]
+s=0
+for i in numbers:
+    s=s+i
+l=len(numbers) 
+avg=s/l
+print(avg)
+
+
+def average(numbers):
+    s=0
     for i in numbers:
-        total=total+i
-        # total*=i
-
-    avg=total/len(numbers)
-
-    return total,avg,len(numbers)
-
+        s=s+i
+    l=len(numbers) 
+    avg=s/l
+    return avg
 
 print(average([1,5,9,5,30]))
 
